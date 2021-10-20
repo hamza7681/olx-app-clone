@@ -1,0 +1,438 @@
+
+
+.sellMenu {
+  position: relative;
+  cursor: pointer;
+}
+
+.sellMenu .all {
+  fill: white;
+}
+
+.sellMenu .top {
+  fill: #23e5db;
+}
+
+.sellMenu .left {
+  fill: #ffce32;
+}
+
+.sellMenu .right {
+  fill: #3a77ff;
+}
+.sellMenu .sellMenuContent {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #002f34;
+}
+
+/* .sellMenu .sellMenuContent svg {
+  align-items: center;
+} */
+.sellMenu .sellMenuContent span {
+  padding-left: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+ 
+  .sellMenu {
+   position: fixed !important;
+   bottom: 20px;
+   left: 130px;
+  }
+ 
+}
+
+.nav_main {
+  background-color: #f5f5f5;
+  width: 100%;
+  box-shadow: 0 0.5px 5px 0.5px #bababa;
+  z-index: 999;
+  padding-top: 15px;
+  position: sticky;
+  top: 0;
+}
+
+.logo_wrapper{
+  padding: 10px 0 10px 40px;
+}
+
+.search_btn {
+  background-color: white;
+  border: none;
+  padding: 5px;
+  height: 100%;
+}
+
+.search_field {
+  width: 80%;
+  border-color: transparent;
+  outline-color: transparent;
+}
+
+.search_field:focus {
+  border-color: transparent;
+  outline: none;
+}
+
+.search_bar {
+  width: 100%;
+  height: 48px;
+  align-items: center;
+  padding: 0 8px;
+  border: 2px solid #002f34;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.search_btn2 {
+  background-color: #002f34;
+  border: none;
+  padding: 5px;
+  height: 100%;
+  width: 42px;
+  position: absolute;
+  right: 0;
+}
+
+.search_bar2 {
+  width: 100%;
+  height: 48px;
+  align-items: center;
+  padding: 0 8px;
+  border: 2px solid #002f34;
+  border-radius: 4px;
+  background-color: white;
+  position: relative;
+}
+
+.icon2 {
+  color: white;
+  font-size: 20px;
+}
+
+.icon1 {
+  font-size: 20px;
+}
+
+.search_field2 {
+  width: 80%;
+  border: none;
+  padding-top: 7px;
+}
+
+.btn_login{
+  background-color: #f5f5f5 !important;
+  color:#002f34 !important;
+  font-weight: bold !important;
+  border: none !important;
+  border-radius: none !important;
+  border-bottom: 3px solid #002f34 !important;
+  outline: none;
+  
+}
+
+.btn_login:focus{
+  outline: none;
+}
+
+.search_field2:focus {
+  border: none;
+  outline: none;
+}
+
+.sell_button {
+  padding: 4px 10px 4px 10px;
+  font-weight: bold;
+  border-radius: 20px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.back_icon{
+  float: left;
+  cursor: pointer;
+  color: #212529;
+  font-size: 18px;
+}
+
+.close_icon{
+ float: right;
+ cursor: pointer;
+ color: #212529;
+ font-size: 18px;
+}
+
+.olxLogo{
+  width: 150px;
+  height: 150px;
+}
+
+.login_email{
+  outline: none;
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid #002f34;
+  margin-bottom: 10%;
+}
+
+.login_password{
+  outline: none;
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid #002f34;
+  margin-bottom: 10%;
+}
+
+.submit_login{
+  width: 100%;
+  height: 35px;
+  background-color: #002f34;
+  border: 2px solid #002f34;
+  font-weight: bold;
+  color: #f5f5f5;
+  margin-bottom: 8%;
+}
+
+.submit_login:hover{
+  background-color: #f5f5f5;;
+  border: 2px solid #002f34;
+  color:#002f34
+}
+
+.signup_link{
+  text-align: center;
+  color: #002f34;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.signup_link:hover{
+color: #006570;
+}
+
+.login_heading{
+  font-weight: 600;
+}
+
+
+.signup_email{
+  outline: none;
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid #002f34;
+  margin-bottom: 3%;
+}
+
+.signup_password{
+  outline: none;
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid #002f34;
+  margin-bottom: 3%;
+}
+.signup_number{
+  outline: none;
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid #002f34;
+  margin-bottom: 3%;
+}
+.signup_name{
+  outline: none;
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid #002f34;
+  margin-bottom: 3%;
+}
+
+.submit_signup{
+  width: 100%;
+  height: 35px;
+  background-color: #002f34;
+  border: 2px solid #002f34;
+  font-weight: bold;
+  color: #f5f5f5;
+  margin-bottom: 3%;
+}
+
+.submit_signup:hover{
+  background-color: #f5f5f5;;
+  border: 2px solid #002f34;
+  color:#002f34
+}
+
+.login_link{
+  text-align: center;
+  color: #002f34;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.login_link:hover{
+  color: #006570;
+  }
+
+  .signup_heading{
+    font-weight: 600;
+    
+  }
+
+
+
+
+  .dp_icon{
+    color: black;
+    font-size: 30px;
+  }
+  
+  .dr{
+    background-color: white;
+    width: 300px !important;
+    position: fixed;
+    top: 70px;
+  }
+  
+  .hello{
+    color: #002f34;
+    font-size: 14px;
+  }
+  .name{
+    color: #002f34;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .edit{
+    color: #002f34;
+    font-size: 14px;
+    text-decoration: underline;
+  }
+  
+  .steps{
+    color: #002f34;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .profile_divs{
+    display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  
+  }
+  
+  .sub_div{
+    width: 39px;
+    height: 8px;
+    background-color: #ffce32;
+  }
+  
+  .sub_div2{
+    background-color: #ccd5d6;
+    width: 39px;
+    height: 8px;
+  }
+  
+  .one_wrapper{
+    border-bottom: 1px solid #c9c9c9;
+  }
+  
+  .dp_list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .dp_list_icon{
+    color: 002f34;
+    font-size: 20px;
+  }
+  
+  .dp_list_item{
+  font-size: 16px;
+  color: #002f34;
+  padding-left: 20px;
+  }
+  
+  .dp_li:hover{
+  background-color: #c8f8f6;
+  }
+  
+  .two_wrapper{
+    border-bottom: 1px solid #c9c9c9;
+  }
+
+.english_div{
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+ .sell_button{
+   display: none;
+ }
+ .search_bar_main{
+   display: none;
+ }
+ .search_bar2{
+   height: 33px !important;
+ }
+ .search_field2{
+   position: relative;
+   top: 0px;
+   height: 27px;
+   
+ }
+ .icon2{
+   position: relative;
+   top: -4px;
+ }
+ .img_logo{
+   text-align: center;
+ }
+ .english_div{
+   display: none;
+ }
+ .logo_wrapper{
+   padding: 0 0 10px 0 !important;
+ }
+ .login_button{
+   position: relative;
+   top: -75px;
+ }
+ .login_wrapper{
+   padding:0 !important;
+ }
+ .btn_login{
+   position: absolute !important;
+   top: -70px !important;
+   left: 18px !important;
+ }
+ .dr{
+  background-color: white;
+  width: 300px !important;
+  position: fixed;
+  top: 50px;
+}
+.btn_login1{
+  position: absolute !important;
+  top: -80px !important;
+  left: 18px !important;
+}
+}
+
